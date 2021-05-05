@@ -128,8 +128,6 @@ Use Active Record association macros and Active Record query methods where appro
 - `Passenger#car_list`
   - returns a `String` of a semi-colon separated list of cars this passenger has ridden in
   - the string should be formatted like this: `Honda Accord;Mazda CX-5`
-- `Passenger#average_rating`
-  - returns the average rating of a passenger
 - `Passenger.average_rating`
   - returns the average rating of all of the passengers
 - `Passenger.worst_rated`
